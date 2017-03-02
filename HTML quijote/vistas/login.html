@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesion | Plataforma</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="../css/login.css">
+
+  
+</head>
+
+<body>
+  <div class="stage">
+  <div class="screen">
+    <div class="screen__inner">
+      <svg class="step-overlay"></svg>
+      <div class="step step--one show">
+        <div class="step__header">
+          <svg class="step__header--logo" width="97px" height="96px" viewBox="0 0 97 96">
+            <img src="../img/logo login.png">
+          </svg>
+      
+          <div class="step__header--desc"><!--PUEDE IR TEXTO--><br> <!--PUEDE IR TEXTO--></div>
+        </div>
+      <div class="step__footer">
+          <div class="btn btn-db">
+            <span class="btn-db__side">Iniciar Sesión</span>
+            <span class="btn-db__side">Registrate</span>
+          </div>
+          <ul class="nav">
+            <li class="nav__item"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="step step--two">
+        <div class="step__header">
+          <svg class="step__header--logo" width="97px" height="96px" viewBox="0 0 97 96">
+            <img src="../img/logo login.png">
+          </svg>
+        </div>
+        <div class="step__form">
+          <span class="input">
+            <input id="login[1]" type="email" class="input__field" />
+            <label class="input__label" for="login[1]">Usuario</label>
+          </span>
+          <span class="input">
+            <input id="login[2]" type="password" class="input__field" />
+            <label class="input__label" for="login[2]">Contraseña</label>
+          </span>
+          <p class="step__form-fp">
+            <a href="#">Has olvidado tu contraseña?</a>
+          </p>
+        </div>
+        <div class="step__footer">
+          <div class="btn btn-single">
+
+            <a  class="btn-single__inner" style="text-decoration:none" href="index.html">
+              <span class="btn-single__inner">Iniciar Sesión</span>
+            </a>
+            
+          </div>
+          <ul class="nav">
+            <li class="nav__item"><a href="#">Sign In with social</a></li>
+            <li class="nav__item"><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js'></script>
+
+
+    <script src="../js/login.js"></script>
+
+</body>
+</html>
