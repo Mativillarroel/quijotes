@@ -73,7 +73,17 @@
           <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
             <div class="menu_section">
               <h3>Menú</h3>
-              <ul class="nav side-menu">
+             <ul class="nav side-menu">
+
+               <li><a><i class="fa"></i> Estados de Resultados <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="resultado.html">Resumen</a></li>
+                      <li><a href="resultado-estimado.html">Estimado</a></li>
+                      <li><a href="resultado-ejecutado.html">Ejecutado</a></li>
+                      <li><a href="resultado-proyeccion.html">Proyección</a></li>
+                      <li><a href="resultado-financiero.html">Financiero</a></li>
+                    </ul>
+                  </li>
 
                  <li>
                   <a href="usuarios.html">
@@ -94,15 +104,8 @@
                     <a href="rendiciones.html">
                       <i class="fa"></i> Rendiciones </a>
                     </li>
-                    <li><a><i class="fa"></i> Estados de Resultados <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                    <li><a href="resultado.html">Dashboard</a></li>
-                      <li><a href="resultado-estimado.html">Estimado</a></li>
-                      <li><a href="resultado-ejecutado.html">Ejecutado</a></li>
-                      <li><a href="resultado-proyeccion.html">Proyección</a></li>
-                      <li><a href="resultado-financiero.html">Financiero</a></li>
-                    </ul>
-                  </li>
+
+                   
 
 
                               </ul>
@@ -251,7 +254,7 @@
             <div class="page-title">
               <div class="title_left">
               <br>
-                <h3>Dashboard <small></small></h3>
+                <h3>Resumen <small>Proyectos en Proceso</small></h3>
                 <br>
               </div>
 
@@ -268,33 +271,27 @@
 
             <div class="row top_tiles" style="margin: 10px 0;">
               <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Costo De Pre-Producción</span>
+                <span>Cotizados</span>
                 <h2>  $ 1.705.420</h2>
                 <span class="sparkline_one" style="height: 160px;">
                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                   </span>
               </div>
               <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span>Costo Rodaje</span>
+                <span>En Proceso</span>
                 <h2>$ 2.112.293</h2>
                 <span class="sparkline_one" style="height: 160px;">
                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                   </span>
               </div>
                 <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                  <span>Saldo Disponible</span>
+                  <span>Cerrados</span>
                   <h2>  $ 1.471.081</h2>
                   <span class="sparkline_one" style="height: 160px;">
                         <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                     </span>
                 </div>
-              <div class="col-md-3 col-sm-3 col-xs-6 tile">
-                <span style="color: #b50000 ">Linea de Credito</span>
-                <h2 style="color: #b50000">- $ 124.079</h2>
-                <span class="sparkline_one" style="height: 160px;">
-                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
-                  </span>
-              </div>
+   
             </div>
 
 
